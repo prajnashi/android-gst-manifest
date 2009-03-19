@@ -3,10 +3,15 @@
   <remote  name="korg"
            fetch="git://android.git.kernel.org/"
            review="review.source.android.com" />
+
+  <remote name="gstreamer"
+          fetch="git://anongit.freedesktop.org/~bilboed/"
+          review="" />
+
   <default revision="master"
            remote="korg" />
 
-  <project path="build" name="platform/build">
+  <project path="build" name="android-build" remote="gstreamer">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
@@ -131,4 +136,15 @@
   <project path="external/xdelta3" name="platform/external/xdelta3" />
   <project path="external/yaffs2" name="platform/external/yaffs2" />
   <project path="external/zlib" name="platform/external/zlib" />
+
+  <!-- GStreamer external modules -->
+  <project path="external/glib" name="android-glib" remote="gstreamer" revision="master" />
+  <project path="external/liboil" name="android-liboil" remote="gstreamer" revision="master" />
+  <project path="external/libogg" name="android-libogg" remote="gstreamer" revision="master" /> 
+  <project path="external/gstreamer" name="android-gstreamer" remote="gstreamer" revision="master" />
+  <project path="external/gst-plugins-base" name="android-gst-plugins-base" remote="gstreamer" revision="master" />
+  <project path="external/gst-plugins-good" name="android-gst-plugins-good" remote="gstreamer" revision="master" />
+  <project path="external/gst-plugins-bad" name="android-gst-plugins-bad" remote="gstreamer" revision="master" />
+  <project path="external/gst-plugins-android" name="gst-plugins-android" remote="gstreamer" revision="master" />
+
 </manifest>
