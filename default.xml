@@ -146,5 +146,8 @@
   <project path="external/gst-plugins-good" name="android-gst-plugins-good" remote="gstreamer" revision="master" />
   <project path="external/gst-plugins-bad" name="android-gst-plugins-bad" remote="gstreamer" revision="master" />
   <project path="external/gst-plugins-android" name="gst-plugins-android" remote="gstreamer" revision="master" />
+  <project path="external/gst-openmax" name="gst-openmax" remote="gstreamer" revision="android-master" />
+  <project path="external/gst-ffmpeg" name="gst-ffmpeg" remote="gstreamer" revision="android-master" />
+  <project path="external/ffmpeg" name="ffmpeg" remote="gstreamer" revision="android-master" />
 
 </manifest>
