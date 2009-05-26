@@ -27,7 +27,7 @@
    <!--
    <project path="bionic" name="platform/bionic" revision="6ed739e1d3b5088bf1cd56f09ba3afba792b969d" /> 
    -->
-   <project path="bionic" name="platform/bionic" revision="master" remote="gstreamer" /> 
+   <project path="bionic" name="bionic" revision="master" remote="gstreamer" /> 
 
    <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" revision="076ef94d61f349f7cf0fe776e60456d8f232cca5" /> 
    <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" revision="8fd8fc6c4d23e1a287fc64f817de23cabcf55b78" /> 
