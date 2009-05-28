@@ -159,7 +159,7 @@
    <project name="gst-ffmpeg" path="external/gst-ffmpeg" remote="gstreamer" revision="master"/>
    <project name="gst-openmax" path="external/gst-openmax" remote="gstreamer" revision="master"/>
    <project name="gst-plugins-ugly" path="external/gst-plugins-ugly" remote="gstreamer" revision="master"/>
-   <project name="gst-plugins-android" path="external/gst-plugins-android" remote="gstreamer" revision="master"/>
+   <project name="gst-plugins-android2" path="external/gst-plugins-android" remote="gstreamer" revision="master"/>
    <project name="gnonlin" path="external/gnonlin" remote="gstreamer" revision="master"/>
    <project name="libmad" path="external/libmad" remote="gstreamer" revision="master"/>
    <project name="libid3tag" path="external/libid3tag" remote="gstreamer" revision="master"/>   
