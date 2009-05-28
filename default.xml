@@ -13,12 +13,10 @@
 
    <!--
    <project path="build" name="platform/build"  revision="709b752e3b888331d9d1f172e19a01446fbed69d" > 
-     <copyfile src="core/root.mk" dest="Makefile" /> 
-   </project> 
-   -->
-   <project path="build" name="platform/build"  revision="master" remote="gstreamer" > 
-     <copyfile src="core/root.mk" dest="Makefile" /> 
-   </project> 
+     <copyfile src="core/root.mk" dest="Makefile" /> </project> --> 
+     
+   <project path="platform/build" name="build" revision="master" remote="gstreamer" > 
+   <copyfile src="core/root.mk" dest="Makefile" /> </project> 
 
    <project path="kernel"
            name="kernel/common"
@@ -37,8 +35,9 @@
    <project path="development" name="platform/development" revision="42c230dd91c73413d4d538e7a68639816cf83f32" /> 
    <!--
    <project path="frameworks/base" name="platform/frameworks/base" revision="358d23017d0d6c4636eb7599ae7a9b48108899a3" /> 
-   -->
-   <project path="platform-frameworks-base" name="platform/frameworks/base" revision="master" remote="gstreamer" /> 
+   --> 
+   
+   <project path="platform/frameworks/base" name="platform-frameworks-base" revision="master" remote="gstreamer" /> 
 
    <project path="frameworks/opt/com.google.android" name="platform/frameworks/opt/com.google.android" revision="cupcake" /> 
    <project path="frameworks/opt/com.google.android.googlelogin" name="platform/frameworks/opt/com.google.android.googlelogin" revision="cupcake" /> 
@@ -161,7 +160,7 @@
    <project name="gst-openmax" path="external/gst-openmax" remote="gstreamer" revision="master"/>
    <project name="gst-plugins-ugly" path="external/gst-plugins-ugly" remote="gstreamer" revision="master"/>
    <project name="gst-plugins-android" path="external/gst-plugins-android" remote="gstreamer" revision="master"/>
-   <project name="gnonlin" path="external/gnonlin" remote="gstreamer" revision="android-master"/>
+   <project name="gnonlin" path="external/gnonlin" remote="gstreamer" revision="master"/>
    <project name="libmad" path="external/libmad" remote="gstreamer" revision="master"/>
    <project name="libid3tag" path="external/libid3tag" remote="gstreamer" revision="master"/>   
 </manifest> 
